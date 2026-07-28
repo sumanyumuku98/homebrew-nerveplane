@@ -1,16 +1,16 @@
 class Nerveplane < Formula
   desc "Coordination plane for autonomous coding agents"
   homepage "https://github.com/sumanyumuku98/Nerveplane"
-  version "0.12.0"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
-    on_arm { url "https://github.com/sumanyumuku98/Nerveplane/releases/download/v0.12.0/nerveplane-darwin-arm64"; sha256 "3ed00721bbca306557e96b4c4fbfc17fb75daafe7c37b98b12b13e878deb9bc0" }
-    on_intel { url "https://github.com/sumanyumuku98/Nerveplane/releases/download/v0.12.0/nerveplane-darwin-x64"; sha256 "f20601d997a55cf499dc0dd9e1e976333e2f823d490060e4da1ffabd4988f1ad" }
+    on_arm { url "https://github.com/sumanyumuku98/Nerveplane/releases/download/v0.13.0/nerveplane-darwin-arm64"; sha256 "819bc7317a26cce6bb203b73c28b565f3ac6f3b750aab8f6d4f54c13825fd14c" }
+    on_intel { url "https://github.com/sumanyumuku98/Nerveplane/releases/download/v0.13.0/nerveplane-darwin-x64"; sha256 "6e38dbdcd9433d6aa74984070bf714669aacd1e424187781df04621e34902ce0" }
   end
   on_linux do
-    on_intel { url "https://github.com/sumanyumuku98/Nerveplane/releases/download/v0.12.0/nerveplane-linux-x64"; sha256 "72fa25563936e2dcbdccb9abecb4aa17f413dcc741e467eb3364b1cd63301638" }
-    on_arm { url "https://github.com/sumanyumuku98/Nerveplane/releases/download/v0.12.0/nerveplane-linux-arm64"; sha256 "33775fc594f1a82989024869d4ec443e203b314c948b9767e29e5780a9ad85f1" }
+    on_intel { url "https://github.com/sumanyumuku98/Nerveplane/releases/download/v0.13.0/nerveplane-linux-x64"; sha256 "3f9c10858f8008574c2251a125bcecd1e86fe347b535ab748a4e8871a63591d2" }
+    on_arm { url "https://github.com/sumanyumuku98/Nerveplane/releases/download/v0.13.0/nerveplane-linux-arm64"; sha256 "7a1af0106d1edcf06b1dfd48dc1f47f901c42c6cac35dfc06d9eda7808663552" }
   end
 
   def install
